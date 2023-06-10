@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <div>
-      Hola mundo
-    </div>
-  );
-}
+import Global from "./Componentes/Global";
+import { MarkDownProvider } from "./Contextos/MarkDownContext";
 
-export default App;
+const App = () => {
+  return (
+    <MarkDownProvider>
+      <Global />
+    </MarkDownProvider>
+  );
+};
+
+export default App 
