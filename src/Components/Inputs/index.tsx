@@ -24,7 +24,7 @@ const Inputs = () => {
               onChange={handleInputChange}
               onKeyDown={handleKeyDown}
               onKeyUp={handleKeyUp}
-              placeholder="Escribe tu contenido aquí..."
+              placeholder="Write your content here..."
               rows={5}
             />
           </Content>
