@@ -1,12 +1,14 @@
-import Global from "./Componentes/Global";
-import { MarkDownProvider } from "./Contextos/MarkDownContext";
+import { MarkDownProvider } from "./Context/MarkDownContext";
+import Global from "./Components/Global";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
-const App = () => {
+function App() {
   return (
-    <MarkDownProvider>
-      <Global />
-    </MarkDownProvider>
+      <MarkDownProvider>
+        <Global />
+      </MarkDownProvider>
   );
-};
+}
 
-export default App 
+export default App;
+
