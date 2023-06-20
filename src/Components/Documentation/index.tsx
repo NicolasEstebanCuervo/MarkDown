@@ -39,13 +39,15 @@ const Documentation = () => {
         <Section>
           <SectionTitle>Paragraphs</SectionTitle>
           <Paragraph>
-            In Markdown, you can apply emphasis to your text using asterisks (*)
-            or underscores (_). Enclose the text you want to emphasize between
-            single asterisks or underscores for italics. To make text bold, use
-            double asterisks or underscores. Additionally, you can create a
-            strikethrough effect using two tildes (~). Remember to use emphasis
-            sparingly and strategically to maintain readability and effectively
-            convey your message.
+            In Markdown, you can create paragraphs by separating them with a
+            blank line. This allows you to structure your text into distinct
+            blocks. If you want to insert a line break within a paragraph, you
+            can do so by adding two spaces at the end of a line. This will
+            create a line break without starting a new paragraph. It's a
+            convenient way to introduce visual breaks or create lists with
+            line-by-line items. With Markdown's simplicity and flexibility, you
+            can easily format your text and ensure readability in a
+            straightforward manner.
           </Paragraph>
           <Example>
             <MarkdownCode>
