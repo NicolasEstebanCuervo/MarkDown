@@ -40,8 +40,6 @@ en las dependencia del proyecto. Para solucionarlo abra la terminal del proyecto
    
 En caso tal de que te interese alguna de las librerias usadas aca te dejo una lista donde puedes encontrarlas:
 
-- Bootstrap icons: npm install botraps-icons.
-- Emotion Css : npm install@emotion/css.
-- Emotion React : npm install @emotion/react.
-- Emotion Styled : npm install @emotion/styled.
+- Bootstrap icons: npm install bootraps-icons.
+- Bootstrao: npm install boostrap
 
