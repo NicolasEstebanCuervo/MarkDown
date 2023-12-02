@@ -32,34 +32,53 @@ const MainHeaderContainer = styled.header`
   width: 90%;
 `;
 const HeaderTitle = styled.h1`
-  font-size: 50px;
+   text-align: center;
+    font-size: 50px;
+    font-weight: 800;
 
-  @media (max-width: 1100px) {
-    font-size: 40px;
-  }
+    @media (max-width: 1250px) {
+        font-size: 40px;
+    }
 
-  @media (max-width: 800px) {
-    font-size: 30px;
-  }
+    @media (max-width: 1000px) {
+        font-size: 30px;
+    }
 
-  @media (max-width: 650px) {
-    font-size: 6vw;
-  }
+    @media (max-width: 750px) {
+        font-size: 25px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 7vw;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 8vw;
+    }
 `;
 
 const HeaderSubtitle = styled.h2`
-  font-size: 35px;
-  font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
 
-  @media (max-width: 1100px) {
-    font-size: 25px;
-  }
+    @media (max-width: 1250px) {
+        font-size: 25px;
+    }
 
-  @media (max-width: 800px) {
-    font-size: 20px;
-  }
+    @media (max-width: 1000px) {
+        font-size: 20px;
+    }
 
-  @media (max-width: 650px) {
-    font-size: 3.2vw;
-  }
+    @media (max-width: 750px) {
+        font-size: 15px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 4vw;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 5vw;
+    }
 `;

@@ -39,7 +39,29 @@ const FooterContainer = styled.div`
 `;
 
 const TitleMadeWith = styled.h1`
-    font-size: 25px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+
+    @media (max-width: 1250px) {
+        font-size: 35px;
+    }
+
+    @media (max-width: 1000px) {
+        font-size: 25px;
+    }
+
+    @media (max-width: 750px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 7vw;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 8vw;
+    }
 `;
 
 const LinkPortafolio = styled.a`
@@ -53,10 +75,34 @@ const ContainerIcons = styled.div`
 
 const Link = styled.a`
   color: ${Colors.senaryColor};
-  font-size: 35px;
+  font-size: 40px;
   margin: 1% 5%;
+    @media (max-width: 400px) {
+        font-size: 10vw;
+    }
 `
 
 const MarkDownCopyright = styled.h1`
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 800;
+
+    @media (max-width: 1250px) {
+        font-size: 25px;
+    }
+
+    @media (max-width: 1000px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 750px) {
+        font-size: 15px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 4vw;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 5vw;
+    }
 `;
